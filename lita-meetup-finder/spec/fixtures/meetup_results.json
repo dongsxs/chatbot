@@ -1,0 +1,93 @@
+{  
+   "results":[  
+      {  
+         "utc_offset":-21600000,
+         "venue":{  
+            "zip":"38104",
+            "country":"us",
+            "localized_country_name":"USA",
+            "city":"Memphis",
+            "address_1":"2164 Young Ave",
+            "name":"Grivet Outdoors",
+            "lon":-89.990074,
+            "id":25963887,
+            "state":"tn",
+            "lat":35.119804,
+            "repinned":true
+         },
+         "headcount":0,
+         "distance":5.100682735443115,
+         "visibility":"public",
+         "waitlist_count":0,
+         "created":1539897150000,
+         "fee":{  
+            "amount":50,
+            "currency":"USD",
+            "label":"Price",
+            "accepts":"wepay",
+            "required":"1"
+         },
+         "maybe_rsvp_count":0,
+         "description":"<p>This is a super convenient opportunity to explore an area you may not have been out to yet! Pinnacle Mountain is located about 2.5 hours from Memphis right outside of Little Rock, Arkansas. Grivet rents a van and provides all transportation. All you have to do is hop on the van and we take care of the rest!</p> <p>We’ll be doing the Base Trail and hitting the peak by going up the West Summit Trail and coming back down the East Summit Trail. Although it is only about 0.75 miles each way, you are climbing about 750 feet very quickly, up and over several boulder fields. You should expect to use your hands and knees for stability and to pull yourself up on some rocks. We’ll also aim to cover the Rocky Valley Trail and the East Quarry Trail – bringing our total mileage for the day to around 6 miles. Although this sounds short, remember how steep some of it is, so I’m rating this hike as moderate-strenuous difficulty. I want to stress how physical those boulder fields are to get up and over! It is a lot of fun and something different to challenge even experienced hikers. We’ll be meeting at the store at 7:00 AM for coffee and tasty breakfast treats, hiking from 10:00 - 4:00 and returning home around 6:30 PM. Please RSVP for this day trip if you’d like to join us.</p> <p>There are only a few spots on the van left. Please contact [masked] for more information or to lock up your spot.</p>",
+         "event_url":"https://www.meetup.com/MemphisOutdoors/events/255648544/",
+         "yes_rsvp_count":3,
+         "duration":43200000,
+         "name":"Grivet Outdoors:  Hiking Trip to Pinnacle Mountain ",
+         "id":"255648544",
+         "time":1541941200000,
+         "updated":1540832649000,
+         "group":{  
+            "join_mode":"open",
+            "created":1210106868000,
+            "name":"Memphis Outdoor Adventures",
+            "group_lon":-89.94999694824219,
+            "id":1138444,
+            "urlname":"MemphisOutdoors",
+            "group_lat":35.11000061035156,
+            "who":"Adventurers"
+         },
+         "status":"upcoming"
+      },
+      {  
+         "utc_offset":-21600000,
+         "venue":{  
+            "zip":"38104",
+            "country":"us",
+            "localized_country_name":"USA",
+            "city":"Memphis",
+            "address_1":"2164 Young Ave",
+            "name":"Grivet Outdoors",
+            "lon":-89.990074,
+            "id":25963887,
+            "state":"tn",
+            "lat":35.119804,
+            "repinned":true
+         },
+         "headcount":0,
+         "distance":5.100682735443115,
+         "visibility":"public",
+         "waitlist_count":0,
+         "created":1539897057000,
+         "maybe_rsvp_count":0,
+         "description":"<p>This is a super convenient opportunity to explore an area you may not have been out to yet! Pinnacle Mountain is located about 2.3 hours from Memphis right outside of Little Rock, Arkansas. Grivet rents a van and provides all transportation. All you have to do is hop on the van and we take care of the rest!</p> <p>We’ll be doing the Base Trail and hitting the peak by going up the West Summit Trail and coming back down the East Summit Trail. Although it is only about 0.75 miles each way, you are climbing about 750 feet very quickly, up and over several boulder fields. You should expect to use your hands and knees for stability and to pull yourself up on some rocks. We’ll also aim to cover the Rocky Valley Trail and the East Quarry Trail – bringing our total mileage for the day to around 6 miles. Although this sounds short, remember how steep some of it is, so I’m rating this hike as moderate-strenuous difficulty. I want to stress how physical those boulder fields are to get up and over! It is a lot of fun and something different to challenge even experienced hikers. We’ll be meeting at the store at 7:00 AM for coffee and tasty breakfast treats, hiking from 10:00 - 4:00 and returning home around 6:30 PM. Please RSVP for this day trip if you’d like to join us.</p> <p>The cost for this hike is $49.95 and there are only a few spots on the van left. Please contact [masked] for more information or to lock up your spot.</p>",
+         "event_url":"https://www.meetup.com/MemphisOutdoors/events/255648524/",
+         "yes_rsvp_count":3,
+         "duration":43200000,
+         "name":"Grivet Outdoors:  Hiking Trip to Pinnacle Mountain ",
+         "id":"255648524",
+         "time":1541941200000,
+         "updated":1540264031000,
+         "group":{  
+            "join_mode":"open",
+            "created":1210106868000,
+            "name":"Memphis Outdoor Adventures",
+            "group_lon":-89.94999694824219,
+            "id":1138444,
+            "urlname":"MemphisOutdoors",
+            "group_lat":35.11000061035156,
+            "who":"Adventurers"
+         },
+         "status":"upcoming"
+      }
+   ]
+}

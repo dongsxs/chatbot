@@ -1,0 +1,16 @@
+$ lita
+Type "exit" or "quit" to end the session.
+Lita > lita hue off
+Turning off light!
+
+Lita > lita hue on
+Turning on light!
+
+Lita > lita hue color red
+Setting color to red
+
+Lita > lita hue color green
+Setting color to green
+
+Lita > lita hue demo
+Enjoy the light demo!

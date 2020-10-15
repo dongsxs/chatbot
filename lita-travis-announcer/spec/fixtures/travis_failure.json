@@ -1,0 +1,95 @@
+{
+  "id": 375024421,
+  "number": "56",
+  "config": {
+    "os": "linux",
+    "rvm": [
+      "2.3.3"
+    ],
+    "dist": "trusty",
+    "group": "stable",
+    ".result": "configured",
+    "language": "ruby",
+    "services": [
+      "redis-server"
+    ],
+    "notifications": {
+      "webhooks": [
+        "http:\/\/bookbot.pritchettbots.com\/travis-announcer\/travis",
+        "http:\/\/7c7e83e9.ngrok.io\/travis-announcer\/travis"
+      ]
+    }
+  },
+  "type": "push",
+  "state": "failed",
+  "status": 1,
+  "result": 1,
+  "status_message": "Failed",
+  "result_message": "Failed",
+  "started_at": "2018-05-04T18:47:46Z",
+  "finished_at": "2018-05-04T18:49:41Z",
+  "duration": 115,
+  "build_url": "https:\/\/travis-ci.org\/dpritchett\/ruby-bookbot\/builds\/375024421",
+  "commit_id": 112089127,
+  "commit": "64794d01af723add0f895383c1fa67cdfb865da3",
+  "base_commit": "64794d01af723add0f895383c1fa67cdfb865da3",
+  "head_commit": null,
+  "branch": "djp\/broken-build-for-travis",
+  "message": "purposefully breaking the build for a travis fixture generation",
+  "compare_url": "https:\/\/github.com\/dpritchett\/ruby-bookbot\/commit\/64794d01af72",
+  "committed_at": "2018-05-04T18:47:26Z",
+  "author_name": "Daniel J. Pritchett",
+  "author_email": "dpritchett@gmail.com",
+  "committer_name": "Daniel J. Pritchett",
+  "committer_email": "dpritchett@gmail.com",
+  "pull_request": false,
+  "pull_request_number": null,
+  "pull_request_title": null,
+  "tag": null,
+  "repository": {
+    "id": 12787622,
+    "name": "ruby-bookbot",
+    "owner_name": "dpritchett",
+    "url": null
+  },
+  "matrix": [
+    {
+      "id": 375024422,
+      "repository_id": 12787622,
+      "parent_id": 375024421,
+      "number": "56.1",
+      "state": "failed",
+      "config": {
+        "os": "linux",
+        "rvm": "2.3.3",
+        "dist": "trusty",
+        "group": "stable",
+        ".result": "configured",
+        "language": "ruby",
+        "services": [
+          "redis-server"
+        ],
+        "notifications": {
+          "webhooks": [
+            "http:\/\/bookbot.pritchettbots.com\/travis-announcer\/travis",
+            "http:\/\/7c7e83e9.ngrok.io\/travis-announcer\/travis"
+          ]
+        }
+      },
+      "status": 1,
+      "result": 1,
+      "commit": "64794d01af723add0f895383c1fa67cdfb865da3",
+      "branch": "djp\/broken-build-for-travis",
+      "message": "purposefully breaking the build for a travis fixture generation",
+      "compare_url": "https:\/\/github.com\/dpritchett\/ruby-bookbot\/commit\/64794d01af72",
+      "started_at": null,
+      "finished_at": null,
+      "committed_at": "2018-05-04T18:47:26Z",
+      "author_name": "Daniel J. Pritchett",
+      "author_email": "dpritchett@gmail.com",
+      "committer_name": "Daniel J. Pritchett",
+      "committer_email": "dpritchett@gmail.com",
+      "allow_failure": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+$ bundle exec lita
+lita Type "exit" or "quit" to end the session.
+Lita > lita bigtext
+https://pastebin.com/9k82HWCY
+Lita >
+
+# adding the /raw/ to the URL so we can see the plain text
+$ curl https://pastebin.com/raw/9k82HWCY
+bravo hawaii alpha echo charlie baker hawaii delta able echo hawaii baker
+echo able baker alpha charlie charlie hawaii charlie delta hawaii alpha
+charlie hawaii hawaii hawaii echo hawaii able able charlie delta delta
+hawaii echo delta able alpha hawaii delta echo echo charlie bravo bravo
+able echo alpha echo baker bravo able able alpha hawaii charlie alpha
+hawaii alpha baker delta able delta able delta alpha hawaii hawaii baker
+able hawaii echo echo able delta charlie delta echo alpha alpha bravo
+bravo charlie echo able able able delta delta hawaii charlie bravo bravo
+alpha delta echo able echo echo⏎

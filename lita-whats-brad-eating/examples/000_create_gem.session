@@ -1,0 +1,30 @@
+$ lita handler whats-brad-eating
+Do you want to test your plugin on Travis CI?
+  ("yes" or "no", default is "no") yes
+Do you want to generate code coverage information with SimpleCov
+  and Coveralls.io?
+  ("yes" or "no", default is "no") yes
+If your plugin's Git repository will be hosted on GitHub, build status
+  and code coverage badges can be automatically added to your README.
+Would you like to add these badges? ("yes" or "no", default is "no") yes
+What is your GitHub username? dpritchett
+      create  lita-whats-brad-eating/lib/lita/handlers/whats_brad_eating.rb
+      create  lita-whats-brad-eating/lib/lita-whats-brad-eating.rb
+      create  lita-whats-brad-eating/spec/lita/handlers/wha..._spec.rb
+      create  lita-whats-brad-eating/spec/spec_helper.rb
+      create  lita-whats-brad-eating/locales/en.yml
+      create  lita-whats-brad-eating/templates/.gitkeep
+      create  lita-whats-brad-eating/Gemfile
+      create  lita-whats-brad-eating/lita-whats-brad-eating.gemspec
+      create  lita-whats-brad-eating/.gitignore
+      create  lita-whats-brad-eating/.travis.yml
+      create  lita-whats-brad-eating/Rakefile
+      create  lita-whats-brad-eating/README.md
+If you plan to release this plugin as open source software,
+  consider adding a LICENSE file to the root of the repository.
+Common open source software licenses can be found at
+  http://choosealicense.com/.
+Remember, for badges to be displayed in your plugin's README,
+  you must host your project on GitHub.
+Additionally, you will need to configure the project on
+  Travis CI and Coveralls.io.

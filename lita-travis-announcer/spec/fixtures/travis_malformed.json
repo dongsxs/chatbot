@@ -1,0 +1,49 @@
+{
+  "id": 375009707,
+  "number": "55",
+  "config": {
+    "os": "linux",
+    "rvm": [
+      "2.3.3"
+    ],
+    "dist": "trusty",
+    "group": "stable",
+    ".result": "configured",
+    "language": "ruby",
+    "services": [
+      "redis-server"
+    ],
+    "notifications": {
+      "webhooks": [
+        "http:\/\/bookbot.pritchettbots.com\/travis-announcer\/travis",
+        "http:\/\/7c7e83e9.ngrok.io\/travis-announcer\/travis"
+      ]
+    }
+  },
+  "type": "push",
+  "state": "passed",
+  "status": 0,
+  "result": 0,
+  "status_message": "Passed",
+  "result_message": "Passed",
+  "started_at": "2018-05-04T18:12:31Z",
+  "finished_at": "2018-05-04T18:14:52Z",
+  "duration": 141,
+  "build_url": "https:\/\/travis-ci.org\/dpritchett\/ruby-bookbot\/builds\/375009707",
+  "commit_id": 112084793,
+  "commit": "7379b6e92f7dc9328953d03d207732852c6e9401",
+  "base_commit": "7379b6e92f7dc9328953d03d207732852c6e9401",
+  "head_commit": null,
+  "branch": "master",
+  "message": "Trying out some travis magic",
+  "compare_url": "https:\/\/github.com\/dpritchett\/ruby-bookbot\/compare\/632250aff63e...7379b6e92f7d",
+  "committed_at": "2018-05-04T18:12:21Z",
+  "author_name": "Daniel J. Pritchett",
+  "author_email": "dpritchett@gmail.com",
+  "committer_name": "Daniel J. Pritchett",
+  "committer_email": "dpritchett@gmail.com",
+  "pull_request": false,
+  "pull_request_number": null,
+  "pull_request_title": null,
+  "tag": null,
+  "repository": {

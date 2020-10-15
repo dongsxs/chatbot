@@ -1,0 +1,8 @@
+> bundle exec lita
+Type "exit" or "quit" to end the session.
+BookBot > bookbot version check
+My git revision is [fc648e78f54a74ca92a82d0ff77a9151fcf8e373].
+My repository URL is [git@github.com:dpritchett/ruby-bookbot.git].
+<<<>>>
+Brought to you by [lita-version-check 0.1.0].
+

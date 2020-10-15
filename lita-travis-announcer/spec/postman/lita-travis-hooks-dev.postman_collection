@@ -1,0 +1,53 @@
+{
+	"variables": [],
+	"info": {
+		"name": "lita travis hooks DEV",
+		"_postman_id": "40acfb2c-40c9-fcc3-f86c-8177e3fc6444",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Travis Bad Build",
+			"request": {
+				"url": "localhost:8080/travis-announcer/travis",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "payload",
+							"value": "{\n  \"id\": 375024421,\n  \"number\": \"56\",\n  \"config\": {\n    \"os\": \"linux\",\n    \"rvm\": [\n      \"2.3.3\"\n    ],\n    \"dist\": \"trusty\",\n    \"group\": \"stable\",\n    \".result\": \"configured\",\n    \"language\": \"ruby\",\n    \"services\": [\n      \"redis-server\"\n    ],\n    \"notifications\": {\n      \"webhooks\": [\n        \"http:\\/\\/bookbot.pritchettbots.com\\/shipit\\/travis\",\n        \"http:\\/\\/7c7e83e9.ngrok.io\\/shipit\\/travis\"\n      ]\n    }\n  },\n  \"type\": \"push\",\n  \"state\": \"failed\",\n  \"status\": 1,\n  \"result\": 1,\n  \"status_message\": \"Failed\",\n  \"result_message\": \"Failed\",\n  \"started_at\": \"2018-05-04T18:47:46Z\",\n  \"finished_at\": \"2018-05-04T18:49:41Z\",\n  \"duration\": 115,\n  \"build_url\": \"https:\\/\\/travis-ci.org\\/dpritchett\\/ruby-bookbot\\/builds\\/375024421\",\n  \"commit_id\": 112089127,\n  \"commit\": \"64794d01af723add0f895383c1fa67cdfb865da3\",\n  \"base_commit\": \"64794d01af723add0f895383c1fa67cdfb865da3\",\n  \"head_commit\": null,\n  \"branch\": \"djp\\/broken-build-for-travis\",\n  \"message\": \"purposefully breaking the build for a travis fixture generation\",\n  \"compare_url\": \"https:\\/\\/github.com\\/dpritchett\\/ruby-bookbot\\/commit\\/64794d01af72\",\n  \"committed_at\": \"2018-05-04T18:47:26Z\",\n  \"author_name\": \"Daniel J. Pritchett\",\n  \"author_email\": \"dpritchett@gmail.com\",\n  \"committer_name\": \"Daniel J. Pritchett\",\n  \"committer_email\": \"dpritchett@gmail.com\",\n  \"pull_request\": false,\n  \"pull_request_number\": null,\n  \"pull_request_title\": null,\n  \"tag\": null,\n  \"repository\": {\n    \"id\": 12787622,\n    \"name\": \"ruby-bookbot\",\n    \"owner_name\": \"dpritchett\",\n    \"url\": null\n  },\n  \"matrix\": [\n    {\n      \"id\": 375024422,\n      \"repository_id\": 12787622,\n      \"parent_id\": 375024421,\n      \"number\": \"56.1\",\n      \"state\": \"failed\",\n      \"config\": {\n        \"os\": \"linux\",\n        \"rvm\": \"2.3.3\",\n        \"dist\": \"trusty\",\n        \"group\": \"stable\",\n        \".result\": \"configured\",\n        \"language\": \"ruby\",\n        \"services\": [\n          \"redis-server\"\n        ],\n        \"notifications\": {\n          \"webhooks\": [\n            \"http:\\/\\/bookbot.pritchettbots.com\\/shipit\\/travis\",\n            \"http:\\/\\/7c7e83e9.ngrok.io\\/shipit\\/travis\"\n          ]\n        }\n      },\n      \"status\": 1,\n      \"result\": 1,\n      \"commit\": \"64794d01af723add0f895383c1fa67cdfb865da3\",\n      \"branch\": \"djp\\/broken-build-for-travis\",\n      \"message\": \"purposefully breaking the build for a travis fixture generation\",\n      \"compare_url\": \"https:\\/\\/github.com\\/dpritchett\\/ruby-bookbot\\/commit\\/64794d01af72\",\n      \"started_at\": null,\n      \"finished_at\": null,\n      \"committed_at\": \"2018-05-04T18:47:26Z\",\n      \"author_name\": \"Daniel J. Pritchett\",\n      \"author_email\": \"dpritchett@gmail.com\",\n      \"committer_name\": \"Daniel J. Pritchett\",\n      \"committer_email\": \"dpritchett@gmail.com\",\n      \"allow_failure\": false\n    }\n  ]\n}\n",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "It wa sa bad build."
+			},
+			"response": []
+		},
+		{
+			"name": "Travis Good Build",
+			"request": {
+				"url": "localhost:8080/travis-announcer/travis",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "payload",
+							"value": "{\n  \"id\": 375009707,\n  \"number\": \"55\",\n  \"config\": {\n    \"os\": \"linux\",\n    \"rvm\": [\n      \"2.3.3\"\n    ],\n    \"dist\": \"trusty\",\n    \"group\": \"stable\",\n    \".result\": \"configured\",\n    \"language\": \"ruby\",\n    \"services\": [\n      \"redis-server\"\n    ],\n    \"notifications\": {\n      \"webhooks\": [\n        \"http:\\/\\/bookbot.pritchettbots.com\\/shipit\\/travis\",\n        \"http:\\/\\/7c7e83e9.ngrok.io\\/shipit\\/travis\"\n      ]\n    }\n  },\n  \"type\": \"push\",\n  \"state\": \"passed\",\n  \"status\": 0,\n  \"result\": 0,\n  \"status_message\": \"Passed\",\n  \"result_message\": \"Passed\",\n  \"started_at\": \"2018-05-04T18:12:31Z\",\n  \"finished_at\": \"2018-05-04T18:14:52Z\",\n  \"duration\": 141,\n  \"build_url\": \"https:\\/\\/travis-ci.org\\/dpritchett\\/ruby-bookbot\\/builds\\/375009707\",\n  \"commit_id\": 112084793,\n  \"commit\": \"7379b6e92f7dc9328953d03d207732852c6e9401\",\n  \"base_commit\": \"7379b6e92f7dc9328953d03d207732852c6e9401\",\n  \"head_commit\": null,\n  \"branch\": \"master\",\n  \"message\": \"Trying out some travis magic\",\n  \"compare_url\": \"https:\\/\\/github.com\\/dpritchett\\/ruby-bookbot\\/compare\\/632250aff63e...7379b6e92f7d\",\n  \"committed_at\": \"2018-05-04T18:12:21Z\",\n  \"author_name\": \"Daniel J. Pritchett\",\n  \"author_email\": \"dpritchett@gmail.com\",\n  \"committer_name\": \"Daniel J. Pritchett\",\n  \"committer_email\": \"dpritchett@gmail.com\",\n  \"pull_request\": false,\n  \"pull_request_number\": null,\n  \"pull_request_title\": null,\n  \"tag\": null,\n  \"repository\": {\n    \"id\": 12787622,\n    \"name\": \"ruby-bookbot\",\n    \"owner_name\": \"dpritchett\",\n    \"url\": null\n  },\n  \"matrix\": [\n    {\n      \"id\": 375009708,\n      \"repository_id\": 12787622,\n      \"parent_id\": 375009707,\n      \"number\": \"55.1\",\n      \"state\": \"passed\",\n      \"config\": {\n        \"os\": \"linux\",\n        \"rvm\": \"2.3.3\",\n        \"dist\": \"trusty\",\n        \"group\": \"stable\",\n        \".result\": \"configured\",\n        \"language\": \"ruby\",\n        \"services\": [\n          \"redis-server\"\n        ],\n        \"notifications\": {\n          \"webhooks\": [\n            \"http:\\/\\/bookbot.pritchettbots.com\\/shipit\\/travis\",\n            \"http:\\/\\/7c7e83e9.ngrok.io\\/shipit\\/travis\"\n          ]\n        }\n      },\n      \"status\": 0,\n      \"result\": 0,\n      \"commit\": \"7379b6e92f7dc9328953d03d207732852c6e9401\",\n      \"branch\": \"master\",\n      \"message\": \"Trying out some travis magic\",\n      \"compare_url\": \"https:\\/\\/github.com\\/dpritchett\\/ruby-bookbot\\/compare\\/632250aff63e...7379b6e92f7d\",\n      \"started_at\": null,\n      \"finished_at\": null,\n      \"committed_at\": \"2018-05-04T18:12:21Z\",\n      \"author_name\": \"Daniel J. Pritchett\",\n      \"author_email\": \"dpritchett@gmail.com\",\n      \"committer_name\": \"Daniel J. Pritchett\",\n      \"committer_email\": \"dpritchett@gmail.com\",\n      \"allow_failure\": false\n    }\n  ]\n}\n",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "We did it!"
+			},
+			"response": []
+		}
+	]
+}

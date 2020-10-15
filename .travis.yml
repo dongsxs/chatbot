@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+  - 2.3.3
+
+services:
+  - redis-server
+
+notifications:
+  webhooks:
+    - http://bookbot.pritchettbots.com/shipit/travis
+    - http://7c7e83e9.ngrok.io/shipit/travis

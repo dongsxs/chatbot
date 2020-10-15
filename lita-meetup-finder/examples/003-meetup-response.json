@@ -1,0 +1,53 @@
+{  
+   "results":[  
+      {  
+         "utc_offset":-21600000,
+         "venue":{  
+            "zip":"38104",
+            "country":"us",
+            "localized_country_name":"USA",
+            "city":"Memphis",
+            "address_1":"2164 Young Ave",
+            "name":"Grivet Outdoors",
+            "lon":-89.990074,
+            "id":25963887,
+            "state":"tn",
+            "lat":35.119804,
+            "repinned":true
+         },
+         "headcount":0,
+# rest of the payload is omitted for readability...
+         "distance":5.100682735443115,
+         "visibility":"public",
+         "waitlist_count":0,
+         "created":1539897150000,
+         "fee":{  
+            "amount":50,
+            "currency":"USD",
+            "label":"Price",
+            "accepts":"wepay",
+            "required":"1"
+         },
+         "maybe_rsvp_count":0,
+         "description":"<p>This is a super convenient opportunity to explore an area you may not have been out to yet! Pinnacle Mountain is located about 2.5 hours from Memphis right outside of Little Rock, Arkansas...",
+         "event_url":"https://www.meetup.com/MemphisOutdoors/events/255648544/",
+         "yes_rsvp_count":3,
+         "duration":43200000,
+         "name":"Grivet Outdoors:  Hiking Trip to Pinnacle Mountain ",
+         "id":"255648544",
+         "time":1541941200000,
+         "updated":1540832649000,
+         "group":{  
+            "join_mode":"open",
+            "created":1210106868000,
+            "name":"Memphis Outdoor Adventures",
+            "group_lon":-89.94999694824219,
+            "id":1138444,
+            "urlname":"MemphisOutdoors",
+            "group_lat":35.11000061035156,
+            "who":"Adventurers"
+         },
+         "status":"upcoming"
+      },
+   ]
+}

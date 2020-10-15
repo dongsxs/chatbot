@@ -1,0 +1,13 @@
+[{
+  "uid": "e3d7a7cd-f67d-445b-a1d6-5e5852b63384",
+  "updateDate": "2017-08-30T12:33:45Z",
+  "titleText": "Lita update",
+  "mainText": "hello book",
+  "redirectionUrl": "https://github.com/dpritchett/lita-alexa-news-publisher"
+}, {
+  "uid": "cae6899f-2c72-4a09-bcb7-dc82aded3a41",
+  "updateDate": "2017-08-30T12:34:05Z",
+  "titleText": "Lita update",
+  "mainText": "adding a second post to the news feed",
+  "redirectionUrl": "https://github.com/dpritchett/lita-alexa-news-publisher"
+}]

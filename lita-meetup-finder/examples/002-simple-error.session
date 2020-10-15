@@ -1,0 +1,14 @@
+dpritchett@Neuromancer ~> pry
+[1] pry(main)> ClassUnfinishedError = Class.new(StandardError)
+=> ClassUnfinishedError
+[2] pry(main)> class DemonstratesErrors
+[2] pry(main)*   def initialize
+                   message = "Whoops, this class is unfinished!"
+[2] pry(main)*     raise ClassUnfinishedError.new message
+[2] pry(main)*   end  
+[2] pry(main)* end  
+=> :initialize
+[3] pry(main)> DemonstratesErrors.new
+ClassUnfinishedError: Whoops, this class is unfinished!
+from (pry):4:in `initialize'
+[4] pry(main)>

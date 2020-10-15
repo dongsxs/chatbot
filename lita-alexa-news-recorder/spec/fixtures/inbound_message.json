@@ -1,0 +1,51 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "SessionId.bd30aa35-f5e1-4970-8b09-dfaf495b0fff",
+    "application": {
+      "applicationId": "amzn1.ask.skill.052f4499-460c-482e-a46f-6c6cbbb269bc"
+    },
+    "attributes": {
+      "supportedHoriscopePeriods": {
+        "daily": true,
+        "weekly": false,
+        "monthly": false
+      }
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AFOTF7K2PX7RO6PYSDICEFORTI65BUVYGZTP5MB2G7DFFB7OWXDVGTIBWRPT7A43MJDKVJSIPNJAPHXNLMMQQ4O72RYM4ZALKLG7IHOMO7PPZ4YDXUDZHXVU5EAPYR6QJOMUL6G5YXMTUG2RF7PV2SPTZPXQ62TZW4S66X2GODEZBEOGD2HWPI3O4ELCG2UQY35PX5RZYJLS6OY"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.b6a27fb6-0d84-4104-9af8-f2504d8a03fd",
+    "intent": {
+      "name": "RecordMessage",
+      "slots": {
+        "Message": {
+          "name": "Message",
+          "value": "hi dad"
+        }
+      }
+    },
+    "locale": "en-US",
+    "timestamp": "2017-08-20T21:25:18Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.052f4499-460c-482e-a46f-6c6cbbb269bc"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AFOTF7K2PX7RO6PYSDICEFORTI65BUVYGZTP5MB2G7DFFB7OWXDVGTIBWRPT7A43MJDKVJSIPNJAPHXNLMMQQ4O72RYM4ZALKLG7IHOMO7PPZ4YDXUDZHXVU5EAPYR6QJOMUL6G5YXMTUG2RF7PV2SPTZPXQ62TZW4S66X2GODEZBEOGD2HWPI3O4ELCG2UQY35PX5RZYJLS6OY"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}
